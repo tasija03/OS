@@ -1,0 +1,3 @@
+Napisati program koji kao argument komandne linije prima putanju do direktorijuma koji je potrebno rekurzivno obići. Ispisati nazive svih regularnih fajlova koji su modifikovani pre <= 5 dana u odnosu na trenutak pokretanja programa (zaokružiti razliku između trenutnog vremena i vremena modifikacije naviše). Ukoliko nije prosleđen ispravan broj argumenata komandne linije, ili putanja koja je prosleđena kao argument komandne linije ne postoji, ili prosleđena putanja nije putanja do direktorijuma završiti sa exit kodom 1.
+
+Zabranjeno korišćenje nftw i ftw funkcije (morate sami pisati obilazak).
